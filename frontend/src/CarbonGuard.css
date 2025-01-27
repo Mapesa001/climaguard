@@ -1,0 +1,42 @@
+/* frontend/src/CarbonGuard.css */
+
+.carbonguard-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin: 20px; /* Margin around the card */
+    width: 100%; /* Full width on smaller screens */
+    max-width: 400px; /* Limit max width */
+  }
+  
+  .carbonguard-title {
+    color: #2c3e50; /* Dark blue for the title */
+    font-size: 2rem; /* Larger font size for the title */
+    margin-bottom: 15px; /* Space below the title */
+  }
+  
+  .loading-spinner {
+    color: #3498db; /* Blue color for loading spinner */
+    font-size: 1.2rem; /* Slightly larger font size */
+    text-align: center; /* Center align */
+  }
+  
+  .error-message {
+    color: #e74c3c; /* Red color for error messages */
+    font-weight: bold; /* Bold font for emphasis */
+    text-align: center; /* Center align */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+  }
+  
+  li {
+    background-color: #ecf0f1; /* Light gray background for list items */
+    padding: 10px; /* Padding for list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
